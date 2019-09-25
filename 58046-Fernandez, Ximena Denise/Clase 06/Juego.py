@@ -4,7 +4,7 @@ minimo=0
 maximo=100
 aleatorio=generador(0, 100)
 while  adivinado == False:
-    print("Ingrese un numero")
+    print("Ingrese un numero entre el 0 y 100")
     numero=int(input())
     if numero == aleatorio:
         print("Ganaste")
